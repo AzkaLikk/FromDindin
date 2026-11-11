@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="A birthday book made just for you.">
+  <title>A Birthday Book</title>
+  <link rel="stylesheet" href="birthday.css">
+  <script src="birthday.js" defer></script>
+</head>
+<body>
+  <section id="opening" aria-label="Halaman pembuka">
+    <div class="stars"></div>
+    <div class="opening-inner">
+      <div class="eyebrow">A little world, made for you</div>
+      <div class="emblem">✦</div>
+      <h1 class="opening-name" id="opening-name">Muhammad Qaishar Al Gibran</h1>
+      <p class="opening-sub">A story made just for you</p>
+      <button class="btn" id="begin">Open your story&nbsp; ✦</button>
+    </div>
+  </section>
+
+  <section id="book-scene" aria-label="Animasi buku">
+    <div class="book-wrap">
+      <div class="book" id="book">
+        <div class="book-pages"></div>
+        <div class="book-cover"><div><small>A special edition</small><h2 id="book-name">Qaishar</h2><small>Made with care</small></div></div>
+      </div>
+      <div class="book-instruction">A little story is waiting for you ✦</div>
+    </div>
+  </section>
+
+  <main id="website">
+    <header>
+      <div class="brand">Happy Birthday to You!</div>
+      <div class="header-right">
+        <div class="header-note">A STORY MADE JUST FOR YOU ✦</div>
+        <button class="music-toggle" id="music-toggle" type="button" aria-pressed="false">
+          <span class="music-icon">♫</span><span id="music-label">Play music</span>
+        </button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content reveal">
+        <div class="eyebrow">Hello</div>
+        <button class="name-button" id="profile-button">Qaishar</button>
+        <p class="click-hint">✦ click the name to discover ✦</p>
+        <div class="welcome">WELCOME TO YOUR SPECIAL WORLD</div>
+        <p class="welcome-sub">The photos of you that have been collected.</p>
+      </div>
+    </section>
+
+    <div class="marquee"><div class="marquee-track">
+      <span>HAPPY BIRTHDAY ✦ SPECIAL PERSON ✦ BEST MEMORIES ✦ TODAY IS YOUR DAY ✦ MUHAMMAD ✦ QAISHAR ✦ AL ✦ GIBRAN ✦</span>
+      <span>HAPPY BIRTHDAY ✦ SPECIAL PERSON ✦ BEST MEMORIES ✦ TODAY IS YOUR DAY ✦ MUHAMMAD ✦ QAISHAR ✦ AL ✦ GIBRAN ✦</span>
+    </div></div>
+
+    <section class="section surprise-section">
+      <div class="section-title reveal">
+        <div class="eyebrow">A little surprise</div>
+        <h2>Made just for you</h2>
+        <p>first unique photo</p>
+      </div>
+
+      <div class="surprise-layout">
+        <div class="photo-frame tall reveal">
+          <img src="images/AlaDin.png" alt="Foto utama teman" class="main-photo">
+          <div class="frame-caption">AlADindindundendon 🤪</div>
+        </div>
+
+        <div class="gift-area reveal">
+          <div class="eyebrow">Something for you</div>
+          <button class="gift-button" id="gift-button" aria-label="Buka kotak hadiah" aria-expanded="false" type="button">
+            <div class="gift-box" id="gift-box">
+              <div class="gift-base"></div>
+              <div class="ribbon-v"></div><div class="ribbon-h"></div>
+              <div class="gift-lid"></div><div class="bow"></div>
+            </div>
+          </button>
+          <p class="gift-hint" id="gift-hint">Tap the gift to open it ✦</p>
+          <div class="balloons" id="balloons"></div>
+          <article class="birthday-card" id="birthday-card">
+            <div class="eyebrow">A birthday wish</div>
+            <h3>Happy Birthday!</h3>
+            <p>HBD Mpruy, sehat selalu, panjang umur, sukses, jadi anak sholeh, baik, dermawan, amanah. Kurang-kurangi berantemnya. Muka gw jangan di jj in ya mpruy, gw sepak lu entar. ✦</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <div class="section-title reveal">
+        <div class="eyebrow">I Got a Little Bit</div><h2>a Brief Moment</h2>
+        <p>kept in one place. Click any photo to see it bigger.</p>
+      </div>
+      <div class="gallery" id="gallery">
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/1.jpeg" alt="Memory 1" loading="lazy"><span>Jangan marah dong mas</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/2.jpeg" alt="Memory 2" loading="lazy"><span>Hah apa?</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/3.jpeg" alt="Memory 3" loading="lazy"><span>Apaan sih</span></button>
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/4.jpeg" alt="Memory 4" loading="lazy"><span>Pantofelnya kincong kok</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/5.jpeg" alt="Memory 5" loading="lazy"><span>Liat apa mas</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/6.jpeg" alt="Memory 6" loading="lazy"><span>Si mas sadar kamera nieh</span></button>
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/7.jpeg" alt="Memory 7" loading="lazy"><span>isi hp tu orang apa yak</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/9.jpeg" alt="Memory 9" loading="lazy"><span>Whops ga liat</span></button>
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/10.jpeg" alt="Memory 10" loading="lazy"><span>Apaan tuch</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/11.jpeg" alt="Memory 11" loading="lazy"><span>"ini bagus kali y"</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/12.jpeg" alt="Memory 12" loading="lazy"><span>Kerkom dulu nieh</span></button>
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/13.jpeg" alt="Memory 13" loading="lazy"><span>Hemmmm :v</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/14.jpeg" alt="Memory 14" loading="lazy"><span>Bertiga aja sih</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/15.jpeg" alt="Memory 15" loading="lazy"><span>Wohoo apa tuh</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/16.jpeg" alt="Memory 16" loading="lazy"><span>Jan lupa pakai helm</span></button>
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/17.jpeg" alt="Memory 17" loading="lazy"><span>Little Ibran</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/18.jpeg" alt="Memory 18" loading="lazy"><span>Fokus sekali mas</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/19.jpeg" alt="Memory 19" loading="lazy"><span>Foto anda blur :v</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/20.jpeg" alt="Memory 20" loading="lazy"><span>Pramuka dulu</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/21.jpeg" alt="Memory 21" loading="lazy"><span>Si Bro</span></button>
+      </div>
+    </section>
+    <footer>✦ MADE WITH CARE, JUST FOR YOU ✦</footer>
+  </main>
+
+  <audio id="background-music" preload="none" loop>
+    <source src="music/backsound.mp3" type="audio/mpeg">
+    <source src="music/backsound.ogg" type="audio/ogg">
+  </audio>
+
+  <dialog id="profile-dialog">
+    <div class="dialog-content">
+      <button class="close" data-close="profile-dialog" aria-label="Tutup">&times;</button>
+      <div class="eyebrow">A little about you</div><h2 id="profile-title">The person behind the story</h2>
+      <p id="profile-text">Muhammad Qaishar Al Gibran</p>
+      <button class="btn" data-close="profile-dialog">Close</button>
+    </div>
+  </dialog>
+  <dialog id="photo-dialog">
+    <div class="dialog-content photo-dialog-content">
+      <button class="close" data-close="photo-dialog" aria-label="Tutup">&times;</button>
+      <img id="large-photo" src="" alt="Foto diperbesar">
+    </div>
+  </dialog>
+</body>
+</html>
